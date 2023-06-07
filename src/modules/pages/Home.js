@@ -9,16 +9,19 @@
 import * as React from 'react';
 
 import ProductHero from '../views/ProductHero';
-
+import ProductCategories from '../views/ProductCategories';
+import AppFooter from '../views/AppFooter';
+import withRoot from '../withRoot';
 
 function Home() {
   return (
     <React.Fragment>
 
       <ProductHero />
-
+      <ProductCategories />
+      <AppFooter />
     </React.Fragment>
   );
 }
 
-export default Home;
+export default withRoot(Home);
