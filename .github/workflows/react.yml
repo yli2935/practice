@@ -28,4 +28,5 @@ jobs:
     - run: npm i
     - run: npm test
     - run: CI='' npm run build 
+    - run: mv /root/actions-runner/_work/practice/practice/build /root/actions-runner/_work/practice/practice/hello
 
