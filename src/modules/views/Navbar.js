@@ -2,7 +2,7 @@
  * @Author: Li yli2935@uwo.ca
  * @Date: 2023-06-07 11:19:32
  * @LastEditors: Li yli2935@uwo.ca
- * @LastEditTime: 2023-06-07 12:53:52
+ * @LastEditTime: 2023-06-08 15:04:47
  * @FilePath: /practie/practice/components/Navbar.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%
  * 
@@ -34,7 +34,7 @@ function Navbar() {
             {'Algorithm'}
           </Link>
           <Box sx={{ flex: 1, display: 'flex', justifyContent: 'flex-end' }}>
-            <Link
+            {/* <Link
               color="inherit"
               variant="h6"
               underline="none"
@@ -50,7 +50,7 @@ function Navbar() {
               sx={{ ...rightLink, color: '#FF3236' }}
             >
               {'Sign Up'}
-            </Link>
+            </Link> */}
           </Box>
         </Toolbar>
       </AppBar>
