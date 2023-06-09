@@ -30,4 +30,5 @@ jobs:
     - run: CI='' npm run build 
     - run: find /usr/share/nginx/html/build/* -type f,d -delete
     - run: mv /root/actions-runner/_work/practice/practice/build /usr/share/nginx/html
+    - run: service nginx restart
 
