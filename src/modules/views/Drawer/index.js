@@ -4,12 +4,5 @@ import { useMemo } from 'react';
 import { useTheme } from '@mui/material/styles';
 import { Box, Drawer, useMediaQuery } from '@mui/material';
 
+import SimpleBar from '../../components/SimpleBar'
 
-
-const MainDrawer = ({ open, handleDrawerToggle, window }) => {
-    const theme = useTheme();
-    const matchDownMD = useMediaQuery(theme.breakpoints.down('lg'));
-    // responsive drawer container
-    const container = window !== undefined ? () => window().document.body : undefined;
-    
-}
