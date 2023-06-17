@@ -13,21 +13,24 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./modules/pages/Home";
 import Terms from "./modules/pages/Term";
+import MainLayout from "./modules/pages/MainLayout";
 import { Fragment } from "react";
-
+import ThemeCustomization from "./themes";
 function App() {
   return (
     <Fragment>
-      <Navbar />
-      {/* <Home></Home> */}
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" exact element={<Home />} />
-          <Route path="/terms" element={<Terms />} />
-          {/* <Route path="/products"  />
-          <Route path="/sign-up"  /> */}
-        </Routes>
-      </BrowserRouter>
+      <ThemeCustomization>
+        <Navbar />
+        {/* <Home></Home> */}
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" exact element={<Home />} />
+            <Route path="/terms" element={<Terms />} />
+            <Route path="/main"  element={<MainLayout />}/>
+
+          </Routes>
+        </BrowserRouter>
+      </ThemeCustomization>
     </Fragment>
   );
 }
