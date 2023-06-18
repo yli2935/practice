@@ -2,7 +2,7 @@
  * @Author: Li yli2935@uwo.ca
  * @Date: 2023-06-07 11:32:46
  * @LastEditors: Li yli2935@uwo.ca
- * @LastEditTime: 2023-06-07 13:22:27
+ * @LastEditTime: 2023-06-18 14:39:37
  * @FilePath: /practie/practice/src/modules/views/ProductHero.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -53,7 +53,7 @@ export default function ProductHero() {
         variant="contained"
         size="large"
         component="a"
-        href="/premium-themes/onepirate/sign-up/"
+        href="/main"
         sx={{ minWidth: 200 }}
       >
         Start
