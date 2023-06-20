@@ -20,6 +20,7 @@ function App() {
   return (
     <Fragment>
       {/* <Home></Home> */}
+      <ThemeCustomization> 
       <BrowserRouter>
         <Routes>
           <Route path="/" exact element={<Home />} />
@@ -29,6 +30,7 @@ function App() {
           <Route path="/sign-up"  /> */}
         </Routes>
       </BrowserRouter>
+      </ThemeCustomization>
     </Fragment>
   );
 }
