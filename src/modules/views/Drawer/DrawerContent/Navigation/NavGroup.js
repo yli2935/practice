@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { useSelector } from 'react-redux';
 
 // material-ui
-import { Box, List, Typography,ListItemIcon } from '@mui/material';
+import { Box, List, Typography } from '@mui/material';
 
 // project import
 import NavItem from './NavItem';
