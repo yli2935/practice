@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 
 // material-ui
 import { useTheme } from "@mui/material/styles";
-import { Box, Toolbar, useMediaQuery } from "@mui/material";
+import { Box, useMediaQuery } from "@mui/material";
 
 import Drawer from "../views/Drawer";
 import Header from '../views/Header';
@@ -37,8 +37,6 @@ const MainLayout = () => {
       <Header open={open} handleDrawerToggle={handleDrawerToggle} />
       <Drawer open={open} handleDrawerToggle={handleDrawerToggle} />
       <Box component="main" sx={{ width: '100%', flexGrow: 1, p: { xs: 2, sm: 3 } }}>
-
-
         <Outlet />
       </Box>
     </Box>

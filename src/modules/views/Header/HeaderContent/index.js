@@ -2,7 +2,7 @@
  * @Author: Li yli2935@uwo.ca
  * @Date: 2023-06-18 14:29:07
  * @LastEditors: Li yli2935@uwo.ca
- * @LastEditTime: 2023-06-18 14:31:11
+ * @LastEditTime: 2023-06-21 16:12:27
  * @FilePath: /practie/practice/src/modules/views/Header/HeaderContent/index.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -27,11 +27,11 @@ const HeaderContent = () => {
 
       <IconButton
         component={Link}
-        href="https://github.com/codedthemes/mantis-free-react-admin-template"
+        href="https://github.com/yli2935"
         target="_blank"
         disableRipple
         color="secondary"
-        title="Download Free Version"
+        title="yaguang's github"
         sx={{ color: 'text.primary', bgcolor: 'grey.100' }}
       >
         <GithubOutlined />
