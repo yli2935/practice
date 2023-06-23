@@ -12,11 +12,29 @@ import { lazy } from 'react';
 import Loadable from '../modules/components/Loadable';
 import MainLayout from '../modules/pages/MainLayout';
 
+import ReverseLinkedList from '../modules/pages/LinkedList/Markdown/ReverseLinkedList.md'
 // render - dashboard
-const DashboardDefault = Loadable(lazy(() => import('pages/dashboard')));
+const Code = Loadable(lazy(() => import('../modules/pages/Code')));
 
 // ==============================|| MAIN ROUTING ||============================== //
 
 const MainRoutes = {
-    
-}
+    path: '/main',
+    element: <MainLayout />,
+    children: [
+        {
+          path: 'code',
+          
+          children: [
+            {
+              path: 'ReverseLinkedList',
+              element: <Code path='./LinkedList/Markdown/ReverseLinkedList.md' title = "Reverse Linked List"/>
+              // element: <Code path={ReverseLinkedList} title = "Reverse Linked List"/>
+              // element: <Code path="../modules/pages/LinkedList/Markdown/ReverseLinkedList.md" title = "Reverse Linked List"/>
+
+            }
+          ]
+        },
+    ]
+};
+export default MainRoutes;

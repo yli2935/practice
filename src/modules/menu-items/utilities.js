@@ -21,15 +21,15 @@ const icons = {
 // ==============================|| MENU ITEMS - UTILITIES ||============================== //
 
 const utilities = {
-  id: 'utilities',
-  title: 'Utilities',
+  id: 'linkedList',
+  title: 'Linked List',
   type: 'group',
   children: [
     {
-      id: 'util-typography',
-      title: 'Typography',
+      id: 'linkedList-reverseLinkedList',
+      title: 'Reverse Linked List',
       type: 'item',
-      url: '/typography',
+      url: '/main/code/ReverseLinkedList',
       icon: icons.FontSizeOutlined
     },
     {

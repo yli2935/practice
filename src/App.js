@@ -9,29 +9,34 @@
 
 import "./App.css";
 //a
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-
-import Home from "./modules/pages/Home";
-import Terms from "./modules/pages/Term";
-import MainLayout from "./modules/pages/MainLayout";
-import { Fragment } from "react";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
+ import { BrowserRouter } from "react-router-dom";
+// import Home from "./modules/pages/Home";
+// import Terms from "./modules/pages/Term";
+// import MainLayout from "./modules/pages/MainLayout";
+// import { Fragment } from "react";
 import ThemeCustomization from "./themes";
+
+import Routes from './routes';
 function App() {
   return (
-    <Fragment>
+
       <ThemeCustomization>
 
-        {/* <Home></Home> */}
+
         <BrowserRouter>
-          <Routes>
+
+          {/* <Routes>
             <Route path="/" exact element={<Home />} />
             <Route path="/terms" element={<Terms />} />
             <Route path="/main"  element={<MainLayout />}/>
 
-          </Routes>
+          </Routes> */}
+           <Routes />
+
         </BrowserRouter>
       </ThemeCustomization>
-    </Fragment>
+
   );
 }
 
