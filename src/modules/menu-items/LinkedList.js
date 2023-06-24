@@ -1,3 +1,11 @@
+/*
+ * @Author: Li yli2935@uwo.ca
+ * @Date: 2023-06-23 15:46:51
+ * @LastEditors: Li yli2935@uwo.ca
+ * @LastEditTime: 2023-06-24 15:17:25
+ * @FilePath: /practie/practice/src/modules/menu-items/LinkedList.js
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 // assets
 import {
   AppstoreAddOutlined,
@@ -20,7 +28,7 @@ const icons = {
 
 // ==============================|| MENU ITEMS - UTILITIES ||============================== //
 
-const utilities = {
+const linkedList = {
   id: 'linkedList',
   title: 'Linked List',
   type: 'group',
@@ -33,10 +41,10 @@ const utilities = {
       icon: icons.FontSizeOutlined
     },
     {
-      id: 'util-color',
-      title: 'Color',
+      id: 'linkedList-mergeTwoSortedLists',
+      title: 'Merge Two Sorted Lists',
       type: 'item',
-      url: '/color',
+      url: '/main/code/MergeTwoSortedLists',
       icon: icons.BgColorsOutlined
     },
     {
@@ -57,4 +65,4 @@ const utilities = {
   ]
 };
 
-export default utilities;
+export default linkedList;

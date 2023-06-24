@@ -2,15 +2,17 @@
  * @Author: Li yli2935@uwo.ca
  * @Date: 2023-06-23 14:05:40
  * @LastEditors: Li yli2935@uwo.ca
- * @LastEditTime: 2023-06-23 14:39:33
+ * @LastEditTime: 2023-06-24 15:01:25
  * @FilePath: /practie/practice/src/modules/pages/LinkedList/Markdown/ReverseLinkedList.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
 ## 题目详情
 给你单链表的头节点`head` ，请你反转链表，并返回反转后的链表。
-示例 1：
-![原题.png](https://upload-images.jianshu.io/upload_images/14626984-b7facbf22abbcd83.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+<a href="https://leetcode.com/problems/reverse-linked-list/" target="_blank">Leetcode Link</a>
+<br/>
+<br/>
+示例 1：
 >输入：head = [1,2,3,4,5]，输出：[5,4,3,2,1]
 
 

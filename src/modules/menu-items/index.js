@@ -9,13 +9,13 @@
 // project import
 import pages from './pages';
 import introduction from './introduction';
-import utilities from './utilities';
+import linkedList from './LinkedList';
 import support from './support';
 
 // ==============================|| MENU ITEMS ||============================== //
 
 const menuItems = {
-  items: [introduction, utilities, pages, support]
+  items: [introduction, linkedList, pages, support]
 };
 
 export default menuItems;

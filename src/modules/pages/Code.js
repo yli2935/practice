@@ -2,7 +2,7 @@
  * @Author: Li yli2935@uwo.ca
  * @Date: 2023-06-09 11:28:10
  * @LastEditors: Li yli2935@uwo.ca
- * @LastEditTime: 2023-06-23 15:45:09
+ * @LastEditTime: 2023-06-24 14:50:23
  * @FilePath: /practie/practice/src/modules/pages/Term.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -12,7 +12,7 @@ import Box from '@mui/material/Box';
 import Markdown from '../components/Markdown';
 import Typography from '../components/Typography';
 import withRoot from '../withRoot';
-import SyntaxHighlight from '../components/SyntaxHighlight'
+import MainCard from '../components/MainCard';
 
 function Codes(props) {
   const { path,title } = props;
