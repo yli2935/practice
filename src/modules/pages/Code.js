@@ -12,7 +12,8 @@ import Box from '@mui/material/Box';
 import Markdown from '../components/Markdown';
 import Typography from '../components/Typography';
 import withRoot from '../withRoot';
-import MainCard from '../components/MainCard';
+
+
 
 function Codes(props) {
   const { path,title } = props;

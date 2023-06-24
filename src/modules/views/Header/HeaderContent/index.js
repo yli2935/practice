@@ -2,13 +2,13 @@
  * @Author: Li yli2935@uwo.ca
  * @Date: 2023-06-18 14:29:07
  * @LastEditors: Li yli2935@uwo.ca
- * @LastEditTime: 2023-06-21 16:12:27
+ * @LastEditTime: 2023-06-24 16:45:47
  * @FilePath: /practie/practice/src/modules/views/Header/HeaderContent/index.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
 // material-ui
 import { Box, IconButton, Link, useMediaQuery } from '@mui/material';
-import { GithubOutlined } from '@ant-design/icons';
+import { GithubOutlined,HomeOutlined } from '@ant-design/icons';
 
 // project import
 import Search from './Search';
@@ -32,9 +32,20 @@ const HeaderContent = () => {
         disableRipple
         color="secondary"
         title="yaguang's github"
-        sx={{ color: 'text.primary', bgcolor: 'grey.100' }}
+        sx={{ color: 'text.primary', bgcolor: 'grey.100',mr:3 }}
       >
         <GithubOutlined />
+      </IconButton>
+
+      <IconButton
+        component={Link}
+        href="/"
+        disableRipple
+        color="secondary"
+        title="yaguang's home page"
+        sx={{ color: 'text.primary', bgcolor: 'grey.100' }}
+      >
+        <HomeOutlined />
       </IconButton>
 
     </>

@@ -59,16 +59,19 @@ const ImageBackdrop = styled('div')(({ theme }) => ({
       url: '/static/city.jpg',
       title: 'Linked List',
       width: '40%',
+      id:'linkedListIntro'
     },
     {
       url: '/static/fire.jpg',
       title: 'Binary Search',
       width: '20%',
+      id:'BinarySearchIntro'
     },
     {
       url: '/static/hotel.jpg',
       title: 'Hask table',
       width: '40%',
+      id:'HashTableIntro'
     },
     {
       url: '/static/lake.jpg',
@@ -79,26 +82,31 @@ const ImageBackdrop = styled('div')(({ theme }) => ({
       url: '/static/light.jpg',
       title: 'Array',
       width: '38%',
+      id:'ArrayIntro'
     },
     {
       url: '/static/night.jpg',
       title: 'Queue',
       width: '24%',
+      id:'QueueIntro'
     },
     {
       url: '/static/river.jpg',
       title: 'Stack',
       width: '40%',
+      id:'StackSearchIntro'
     },
     {
       url: '/static/sky.jpg',
       title: 'Trees',
       width: '20%',
+      id:'TreeIntro'
     },
     {
       url: '/static/water.jpg',
       title: 'Graph & Search',
       width: '40%',
+      id:'GraphAndSearchIntro'
     },
   ];
   
@@ -117,6 +125,7 @@ export default function ProductCategories() {
               style={{
                 width: image.width,
               }}
+              href={"/main/code/"+image.id}
             >
               <Box
                 sx={{
