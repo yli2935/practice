@@ -2,7 +2,7 @@
  * @Author: Li yli2935@uwo.ca
  * @Date: 2023-06-23 14:05:40
  * @LastEditors: Li yli2935@uwo.ca
- * @LastEditTime: 2023-06-24 15:01:25
+ * @LastEditTime: 2023-06-25 15:45:41
  * @FilePath: /practie/practice/src/modules/pages/LinkedList/Markdown/ReverseLinkedList.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -12,9 +12,13 @@
 <a href="https://leetcode.com/problems/reverse-linked-list/" target="_blank">Leetcode Link</a>
 <br/>
 <br/>
-示例 1：
->输入：head = [1,2,3,4,5]，输出：[5,4,3,2,1]
+> 示例 1：
 
+>       Input：head = [1,2,3,4,5]
+
+>       Output：[5,4,3,2,1]
+
+>       // 
 
 <br/>
 ## Java代码（迭代）

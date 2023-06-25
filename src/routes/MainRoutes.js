@@ -2,7 +2,7 @@
  * @Author: Li yli2935@uwo.ca
  * @Date: 2023-06-21 16:50:33
  * @LastEditors: Li yli2935@uwo.ca
- * @LastEditTime: 2023-06-24 16:51:28
+ * @LastEditTime: 2023-06-25 15:16:56
  * @FilePath: /practie/practice/src/routes/MainRoutes.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -12,7 +12,6 @@ import { lazy } from 'react';
 import Loadable from '../modules/components/Loadable';
 import MainLayout from '../modules/pages/MainLayout';
 
-import ReverseLinkedList from '../modules/pages/LinkedList/Markdown/ReverseLinkedList.md'
 // render - dashboard
 const Code = Loadable(lazy(() => import('../modules/pages/Code')));
 
@@ -38,6 +37,11 @@ const MainRoutes = {
                 path: 'MergeTwoSortedLists',
                 element: <Code path='./LinkedList/Markdown/MergeTwoSortedLists.md' title = "Merge Two Sorted Lists"/>
             },
+            {
+              path: 'MiddleOfTheLinkedList',
+              element: <Code path='./LinkedList/Markdown/MiddleOfTheLinkedList.md' title = "Middle Of The LinkedList"/>
+            },
+
           ]
         },
     ]

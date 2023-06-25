@@ -2,7 +2,7 @@
  * @Author: Li yli2935@uwo.ca
  * @Date: 2023-06-24 15:13:50
  * @LastEditors: Li yli2935@uwo.ca
- * @LastEditTime: 2023-06-24 15:13:57
+ * @LastEditTime: 2023-06-25 15:44:34
  * @FilePath: /practie/practice/src/modules/pages/LinkedList/Markdown/MergeTwoSortedLists.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -12,14 +12,21 @@ Merge two sorted linked lists and return it as a new list. The new list should b
 <a href="https://leetcode.com/problems/merge-two-sorted-lists/" target="_blank">Leetcode Link</a>
 <br/>
 <br/>
+> 示例 1：
 
-示例 1：
->Input: list1 = [1,2,4], list2 = [1,3,4]
-Output: [1,1,2,3,4,4]
+>       Input: list1 = [1,2,4], list2 = [1,3,4]
 
-示例 2：
->Input: list1 = [], list2 = [0]
-Output: [0]
+>       Output: [1,1,2,3,4,4]
+
+>       // 
+
+> 示例 2：
+
+>       Input: list1 = [], list2 = [0]
+
+>       Output: [0]
+
+>       // 
 
 <br/>
 

@@ -2,7 +2,7 @@
  * @Author: Li yli2935@uwo.ca
  * @Date: 2023-06-09 11:43:52
  * @LastEditors: Li yli2935@uwo.ca
- * @LastEditTime: 2023-06-24 16:42:53
+ * @LastEditTime: 2023-06-25 15:43:47
  * @FilePath: /practie/practice/src/modules/components/Markdown.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -11,6 +11,8 @@ import ReactMarkdown from 'markdown-to-jsx';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
+
+
 
 import {Prism as SyntaxHighlighter} from 'react-syntax-highlighter';
 import {coy as CodeStyle} from 'react-syntax-highlighter/dist/esm/styles/prism';
@@ -32,9 +34,17 @@ const PreBlock = ({children, ...rest}) => {
   return <pre {...rest}>{children}</pre>;
 };
 
+const CustomBlockquote = ({ children ,...rest }) => (
+  <div style={{ borderLeft: '4px solid #ccc', paddingLeft: '16px' }}>
+    <blockquote {...rest}>{children}</blockquote>
+  </div>
+);
+
+
 const options = {
   overrides: {
     pre: PreBlock,
+    blockquote:CustomBlockquote,
     h1: {
       component: Typography,
       props: {
