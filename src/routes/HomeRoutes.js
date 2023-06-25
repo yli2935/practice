@@ -5,15 +5,9 @@ import Home from "../modules/pages/Home";
 import Terms from "../modules/pages/Term";
 
 const HomeRoutes = {
-    path: '/',
+    path: '/' ,
     element: <Home />,
-    children: [
-      {
-        path: 'terms',
-        element: <Terms />
-      }
 
-    ]
   };
   
 export default HomeRoutes;
