@@ -48,6 +48,13 @@ const linkedList = {
       icon: icons.FontSizeOutlined
     },
     {
+      id: 'linkedList-palindrome',
+      title: 'palindrome',
+      type: 'item',
+      url: '/main/code/linkedListPalindrome',
+      icon: icons.FontSizeOutlined
+    },
+    {
       id: 'linkedList-mergeTwoSortedLists',
       title: 'Merge Two Sorted Lists',
       type: 'item',
@@ -61,21 +68,6 @@ const linkedList = {
       url: '/main/code/MiddleOfTheLinkedList',
       icon: icons.FontSizeOutlined
     },
-    {
-      id: 'util-shadow',
-      title: 'Shadow',
-      type: 'item',
-      url: '/shadow',
-      icon: icons.BarcodeOutlined
-    },
-    {
-      id: 'ant-icons',
-      title: 'Ant Icons',
-      type: 'item',
-      url: '/icons/ant',
-      icon: icons.AntDesignOutlined,
-      breadcrumbs: false
-    }
   ]
 };
 

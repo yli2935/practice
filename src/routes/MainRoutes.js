@@ -2,7 +2,7 @@
  * @Author: Li yli2935@uwo.ca
  * @Date: 2023-06-21 16:50:33
  * @LastEditors: Li yli2935@uwo.ca
- * @LastEditTime: 2023-06-25 15:16:56
+ * @LastEditTime: 2023-06-25 17:26:24
  * @FilePath: /practie/practice/src/routes/MainRoutes.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -32,6 +32,10 @@ const MainRoutes = {
             {
               path: 'ReverseLinkedList',
               element: <Code path='./LinkedList/Markdown/ReverseLinkedList.md' title = "Reverse Linked List"/>
+            },
+            {
+              path: 'linkedListPalindrome',
+              element: <Code path='./LinkedList/Markdown/LinkedListPalindrome.md' title = "Linked List Palindrome"/>
             },
             {
                 path: 'MergeTwoSortedLists',

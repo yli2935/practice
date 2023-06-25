@@ -2,7 +2,7 @@
  * @Author: Li yli2935@uwo.ca
  * @Date: 2023-06-23 14:05:40
  * @LastEditors: Li yli2935@uwo.ca
- * @LastEditTime: 2023-06-25 15:45:41
+ * @LastEditTime: 2023-06-25 17:51:15
  * @FilePath: /practie/practice/src/modules/pages/LinkedList/Markdown/ReverseLinkedList.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -71,4 +71,7 @@ class Solution {
     }
 }
 ```
+
+## 总结
+> 先开一个dummy node用来保存头节点，然后while循环，当两个list有一个为空的时候停止。在循环中比较两个节点的大小，然后将小的放到dummy节点后面，然后移动两个节点。当有一个节点为空的时候，把不为空的list接到结果链表后面。然后返回dummy节点
 
