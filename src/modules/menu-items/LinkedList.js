@@ -2,7 +2,7 @@
  * @Author: Li yli2935@uwo.ca
  * @Date: 2023-06-23 15:46:51
  * @LastEditors: Li yli2935@uwo.ca
- * @LastEditTime: 2023-06-25 15:11:21
+ * @LastEditTime: 2023-06-26 13:23:21
  * @FilePath: /practie/practice/src/modules/menu-items/LinkedList.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -41,6 +41,27 @@ const linkedList = {
       icon: icons.FontSizeOutlined
     },
     {
+      id: 'linkedList-MiddleOfTheLinkedList',
+      title: 'Middle Of The Linked List',
+      type: 'item',
+      url: '/main/code/MiddleOfTheLinkedList',
+      icon: icons.FontSizeOutlined
+    },
+    {
+      id: 'linkedList-mergeTwoSortedLists',
+      title: 'Merge Two Sorted Lists',
+      type: 'item',
+      url: '/main/code/MergeTwoSortedLists',
+      icon: icons.FontSizeOutlined
+    },
+    {
+      id: 'linkedList-RemoveLinkedListElements',
+      title: 'Remove Elements',
+      type: 'item',
+      url: '/main/code/RemoveLinkedListElements',
+      icon: icons.FontSizeOutlined
+    },
+    {
       id: 'linkedList-reverseLinkedList',
       title: 'Reverse Linked List',
       type: 'item',
@@ -54,20 +75,8 @@ const linkedList = {
       url: '/main/code/linkedListPalindrome',
       icon: icons.FontSizeOutlined
     },
-    {
-      id: 'linkedList-mergeTwoSortedLists',
-      title: 'Merge Two Sorted Lists',
-      type: 'item',
-      url: '/main/code/MergeTwoSortedLists',
-      icon: icons.FontSizeOutlined
-    },
-    {
-      id: 'linkedList-MiddleOfTheLinkedList',
-      title: 'Middle Of The Linked List',
-      type: 'item',
-      url: '/main/code/MiddleOfTheLinkedList',
-      icon: icons.FontSizeOutlined
-    },
+
+
   ]
 };
 

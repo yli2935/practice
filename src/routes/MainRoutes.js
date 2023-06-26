@@ -2,7 +2,7 @@
  * @Author: Li yli2935@uwo.ca
  * @Date: 2023-06-21 16:50:33
  * @LastEditors: Li yli2935@uwo.ca
- * @LastEditTime: 2023-06-25 17:26:24
+ * @LastEditTime: 2023-06-26 14:07:20
  * @FilePath: /practie/practice/src/routes/MainRoutes.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -27,24 +27,30 @@ const MainRoutes = {
           children: [
             {
               path: 'linkedListIntro',
-              element: <Code path='./LinkedList/Markdown/LinkedList.md' title = "Intro to Linked List"/>
+              element: <Code path='./LinkedList/Markdown/LinkedList.md' title = "Intro to Linked List" />
             },
             {
               path: 'ReverseLinkedList',
-              element: <Code path='./LinkedList/Markdown/ReverseLinkedList.md' title = "Reverse Linked List"/>
-            },
-            {
-              path: 'linkedListPalindrome',
-              element: <Code path='./LinkedList/Markdown/LinkedListPalindrome.md' title = "Linked List Palindrome"/>
-            },
-            {
-                path: 'MergeTwoSortedLists',
-                element: <Code path='./LinkedList/Markdown/MergeTwoSortedLists.md' title = "Merge Two Sorted Lists"/>
+              element: <Code path='./LinkedList/Markdown/ReverseLinkedList.md' title = "Reverse Linked List" difficulty = {2}/>
             },
             {
               path: 'MiddleOfTheLinkedList',
-              element: <Code path='./LinkedList/Markdown/MiddleOfTheLinkedList.md' title = "Middle Of The LinkedList"/>
+              element: <Code path='./LinkedList/Markdown/MiddleOfTheLinkedList.md' title = "Middle Of The LinkedList" difficulty = {1}/>
             },
+            {
+              path: 'linkedListPalindrome',
+              element: <Code path='./LinkedList/Markdown/LinkedListPalindrome.md' title = "Linked List Palindrome" difficulty = {3}/>
+            },
+            {
+                path: 'MergeTwoSortedLists',
+                element: <Code path='./LinkedList/Markdown/MergeTwoSortedLists.md' title = "Merge Two Sorted Lists" difficulty = {2}/>
+            },
+
+            {
+              path: 'RemoveLinkedListElements',
+              element: <Code path='./LinkedList/Markdown/RemoveLinkedListElements.md' title = "Remove Linked List Elements" difficulty = {2}/>
+            },
+
 
           ]
         },

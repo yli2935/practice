@@ -31,7 +31,7 @@ const LogoSection = ({ sx, to }) => {
       to={!to ? '/main' : to}
       sx={sx}
     >
-      <Logo />
+      <img src={"./static/logo-color.svg"} alt="Mantis" width="140" />
     </ButtonBase>
   );
 };
