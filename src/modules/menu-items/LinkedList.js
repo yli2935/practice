@@ -2,7 +2,7 @@
  * @Author: Li yli2935@uwo.ca
  * @Date: 2023-06-23 15:46:51
  * @LastEditors: Li yli2935@uwo.ca
- * @LastEditTime: 2023-06-26 13:23:21
+ * @LastEditTime: 2023-06-27 17:19:10
  * @FilePath: /practie/practice/src/modules/menu-items/LinkedList.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -41,10 +41,31 @@ const linkedList = {
       icon: icons.FontSizeOutlined
     },
     {
+      id: 'linkedList-LinkedListCycle',
+      title: 'Linked List Cycle',
+      type: 'item',
+      url: '/main/code/LinkedListCycle',
+      icon: icons.FontSizeOutlined
+    },
+    {
       id: 'linkedList-MiddleOfTheLinkedList',
       title: 'Middle Of The Linked List',
       type: 'item',
       url: '/main/code/MiddleOfTheLinkedList',
+      icon: icons.FontSizeOutlined
+    },
+    {
+      id: 'linkedList-MoveNNodeFromEnd',
+      title: 'Move Nth Node From End',
+      type: 'item',
+      url: '/main/code/MoveNNodeFromEnd',
+      icon: icons.FontSizeOutlined
+    },
+    {
+      id: 'linkedList-AddTwoNumber',
+      title: 'Add Two Number',
+      type: 'item',
+      url: '/main/code/AddTwoNumber',
       icon: icons.FontSizeOutlined
     },
     {
