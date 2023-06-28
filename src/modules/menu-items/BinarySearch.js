@@ -26,7 +26,7 @@ const BinarySearch = {
       id: 'binarySearch-SearchRotatedSortedArray',
       title: 'Search Rotated Array',
       type: 'item',
-      url: '/main/code/SearchRotatedSortedArray',
+      url: '/main/BinarySearch/SearchRotatedSortedArray',
       icon: icons.ProfileOutlined,
 
     },
@@ -34,7 +34,7 @@ const BinarySearch = {
       id: 'binarySearch-FindMinimumRotatedSortedArray',
       title: 'Find Minimum Rotated Array',
       type: 'item',
-      url: '/main/code/FindMinimumRotatedSortedArray',
+      url: '/main/BinarySearch/FindMinimumRotatedSortedArray',
       icon: icons.ProfileOutlined,
 
     }
