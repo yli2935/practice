@@ -11,11 +11,11 @@ import pages from './BinarySearch';
 import introduction from './introduction';
 import linkedList from './LinkedList';
 import stack from './stack';
-
+import sort from './sort';
 // ==============================|| MENU ITEMS ||============================== //
 
 const menuItems = {
-  items: [introduction, linkedList, pages, stack]
+  items: [introduction, linkedList, pages, stack,sort]
 };
 
 export default menuItems;
