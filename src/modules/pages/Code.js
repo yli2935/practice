@@ -2,7 +2,7 @@
  * @Author: Li yli2935@uwo.ca
  * @Date: 2023-06-09 11:28:10
  * @LastEditors: Li yli2935@uwo.ca
- * @LastEditTime: 2023-06-26 14:02:16
+ * @LastEditTime: 2023-07-19 16:11:53
  * @FilePath: /practie/practice/src/modules/pages/Term.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -14,6 +14,9 @@ import Typography from '../components/Typography';
 import withRoot from '../withRoot';
 import Rating from '@mui/material/Rating';
 import Divider from '@mui/material/Divider';
+// import SimpleBar from '../components/SimpleBar';
+import SimpleBar from 'simplebar-react';
+import Navigation from '../views/Drawer/DrawerContent/Navigation'
 function Codes(props) {
   const { path,title,difficulty} = props;
   const [post, setPost] = React.useState('');
@@ -29,6 +32,7 @@ function Codes(props) {
       })
       .catch(err => console.log(err));
   });
+
   return (
     <React.Fragment>
       <Container>
