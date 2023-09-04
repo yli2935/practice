@@ -2,7 +2,7 @@
  * @Author: Li yli2935@uwo.ca
  * @Date: 2023-06-07 11:32:46
  * @LastEditors: Li yli2935@uwo.ca
- * @LastEditTime: 2023-06-18 14:39:37
+ * @LastEditTime: 2023-09-04 10:34:25
  * @FilePath: /practie/practice/src/modules/views/ProductHero.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -11,7 +11,7 @@ import Button from "../components/Button";
 import Typography from "../components/Typography";
 import ProductHeroLayout from "./ProductHeroLayout";
 import Link from '@mui/material/Link';
-const backgroundImage = "https://i.imgur.com/1PeQdB4.jpeg";
+const backgroundImage = "https://i.imgur.com/If1JaaE.jpeg";
 // const backgroundImage = "/static/background.jpg"
 
 export default function ProductHero() {
