@@ -43,7 +43,7 @@ const BinarySeearchRoutes = [
     },
     {
         path: 'FindFirstAndLastPosition',
-        element: <Code path='./Markdown/BinarySearch/FindFirstAndLastPosition.md' title = "Find First And Last Position" difficulty = {3}/>
+        element: <Code path='./Markdown/BinarySearch/FindFistAndLastPosition.md' title = "Find First And Last Position" difficulty = {3}/>
     },
     
   ]
