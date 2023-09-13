@@ -22,6 +22,7 @@ const ImageBackdrop = styled('div')(({ theme }) => ({
     padding: 0,
     borderRadius: 0,
     height: '40vh',
+    background: theme.palette.common.white,
     [theme.breakpoints.down('md')]: {
       width: '100% !important',
       height: 100,
@@ -114,11 +115,11 @@ const ImageBackdrop = styled('div')(({ theme }) => ({
 
 export default function ProductCategories() {
     return (
-      <Container component="section" sx={{ mt: 8, mb: 4 }}>
+      <Container component="section" sx={{ mt: 8, mb: 4, }}>
         <Typography variant="h4" marked="center" align="center" component="h2">
           For all tastes 
         </Typography>
-        <Box sx={{ mt: 8, display: 'flex', flexWrap: 'wrap' }}>
+        <Box sx={{ mt: 8, display: 'flex', flexWrap: 'wrap'}}>
           {images.map((image) => (
             <ImageIconButton
               key={image.title}
@@ -137,6 +138,7 @@ export default function ProductCategories() {
                   backgroundSize: 'cover',
                   backgroundPosition: 'center 40%',
                   backgroundImage: `url(${image.url})`,
+                
                 }}
               />
               <ImageBackdrop className="imageBackdrop" />
@@ -151,6 +153,7 @@ export default function ProductCategories() {
                   alignItems: 'center',
                   justifyContent: 'center',
                   color: 'common.white',
+                  
                 }}
               >
                 <Typography
